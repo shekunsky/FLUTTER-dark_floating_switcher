@@ -1,0 +1,1 @@
+enum DarkFloatingSwitcherState { on, off }
