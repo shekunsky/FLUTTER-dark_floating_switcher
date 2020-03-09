@@ -15,6 +15,7 @@ For use **dark_floating_switcher** widget in your project:
         dark_floating_switcher:
             git:
                 url: git@github.com:shekunsky/FLUTTER-dark_floating_switcher.git
+```
 
 2. Import widget in the dart file:
 ```dart
