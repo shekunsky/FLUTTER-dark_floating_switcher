@@ -2,7 +2,7 @@
 
 **dark_floating_switcher** widget for Flutter project.
 
-![](on_off_switcher.gif)
+![](floating_switcher.gif)
 
 ## Getting Started
 
@@ -14,8 +14,7 @@ For use **dark_floating_switcher** widget in your project:
             sdk: flutter
         dark_floating_switcher:
             git:
-                url: git@github.com:shekunsky/FLUTTER-on_off_switcher.git
-```
+                url: git@github.com:shekunsky/FLUTTER-dark_floating_switcher.git
 
 2. Import widget in the dart file:
 ```dart
@@ -29,7 +28,7 @@ For use **dark_floating_switcher** widget in your project:
          DarkFloatingSwitcher(
                 state: DarkFloatingSwitcherState.on,
                 valueChanged: (state) {
-                  if (state == ODarkFloatingSwitcherState.on) {
+                  if (state == DarkFloatingSwitcherState.on) {
                     print('State is ON');
                   } else {
                     print('State is OFF');
